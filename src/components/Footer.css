@@ -1,0 +1,33 @@
+.footer {
+    font-family: 'Exo 2';
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: fit-content;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #d57cff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer p a img {
+    width: 20px;
+}

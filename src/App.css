@@ -1,0 +1,115 @@
+body {
+  margin: 0px;
+  background-color: #303030;
+}
+
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #440064;
+}
+
+.container {
+  font-family: 'Exo 2';
+  padding: 20px 1rem;
+  margin-top: -60px;
+}
+
+.container .caixa {
+  max-width: 75%;
+  padding: 30px;
+  margin: auto;
+  background-color: #222;
+}
+
+.container .caixa h1 {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.container .caixa .input {
+  margin-bottom: 20px;
+}
+
+.container .caixa .input label {
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  background-color: #222;
+  padding: 5px;
+  margin: 3px 10px -13px;
+  display: block;
+  position: relative;
+  width: fit-content;
+}
+
+.container .caixa .input input {
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  display: block;
+  width: 98%;
+  background-color: transparent;
+  color: #fff;
+  transition: .2s;
+}
+
+.container .caixa .input:hover input {
+  background-color: #ffffff1d;
+}
+
+.container .caixa .input input:focus {
+  outline: none;
+}
+
+.container .caixa .botao {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.container .caixa button {
+  background-image: linear-gradient(47deg, #440064, #8d17c6);
+  padding: 15px 30px;
+  border-radius: 8px;
+  color: #fff;
+  display: block;
+  width: fit-content;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.container .caixa button.cancelar {
+  background-image: linear-gradient(47deg, #ff2828, #ff5757);
+}
+
+.container .caixa button:focus {
+  outline: none;
+}
+
+.container .caixa button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 700px) {
+  .historico .hora {
+    top: inherit !important;
+    bottom: 0px !important;
+    right: initial !important;
+    left: 0;
+    padding: 15px 0 !important;
+    align-items: flex-start !important;
+    flex-direction: column;
+    justify-content: flex-end !important;
+  }
+
+  .historico,
+  .caixa {
+    max-width: 100% !important;
+  }
+}
